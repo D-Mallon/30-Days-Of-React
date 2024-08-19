@@ -121,3 +121,68 @@ console.log(removeLastITCompany);
 console.log(reverseITCompanies);
 reverseITCompanies.splice(0, reverseITCompanies.length);
 console.log(reverseITCompanies);
+
+// Ternary Operator
+// const readline = require("readline").createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// readline.question("Enter your age: ", (age) => {
+//   age = Number(age); // Convert string to number
+//   switch (true) {
+//     case age >= 18:
+//       console.log("You are old enough to drive");
+//       break;
+//     default:
+//       let yearsLeft = 18 - age;
+//       console.log(
+//         `You are not old enough to drive. You have ${yearsLeft} years to drive.`
+//       );
+//   }
+
+//   readline.question("And what is your age user #2? ", (age2) => {
+//     age2 = Number(age2);
+//     if (age2 > age) {
+//       console.log("User #2 is older than user #1 by ", age2 - age, " years.");
+//     } else if (age > age2) {
+//       console.log("User #1 is older than user #2 by ", age - age2, " years.");
+//     } else {
+//       console.log("Both users are the same age.");
+//     }
+//     // Close the readline interface after all questions are answered
+//     readline.close();
+//   });
+// });
+
+// let a = 4;
+// let b = 5;
+// if (a > b) {
+//   console.log("a is greater than b");
+// } else {
+//   console.log("b is greater than a or the same as a");
+// }
+
+// a > b
+//   ? console.log("a is greater than b")
+//   : console.log("b is greater than a or the same as a");
+
+// const readline = require("readline").createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+// readline.question("what grade number did you get? ", (grade) => {
+//   grade = Number(grade);
+//   switch (true) {
+//     case grade >= 80 && grade <= 100:
+//       console.log("A");
+//       break;
+//     case grade >= 70 && grade < 80:
+//       console.log("B");
+//       break;
+//     default:
+//       console.log("It wasn't either an A or a B");
+//       break;
+//   }
+//   readline.close();
+// });
