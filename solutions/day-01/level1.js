@@ -186,3 +186,68 @@ console.log(reverseITCompanies);
 //   }
 //   readline.close();
 // });
+
+// const month = "January";
+
+// const readline = require("readline").createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// readline.question("what month is it? ", (month) => {
+//   month = month.toLowerCase();
+
+//   switch (month) {
+//     case "january" || "february" || "december":
+//       console.log("Winter");
+//       break;
+//     case "march" || "april" || "may":
+//       console.log("Spring");
+//       break;
+//   }
+//   readline.close();
+// });
+
+// Loops
+
+// for (let i = 0; i < 6; i += 2) {
+//   console.log(i);
+// }
+
+// let sum = 0;
+// for (let i = 0; i < 101; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+
+// const nums = [1, 2, 3, 4, 5];
+// const lengthNums = nums.length;
+// const reversedNums = [];
+// for (let i = lengthNums - 1; i >= 0; i--) {
+//   reversedNums.push(nums[i]);
+// }
+// console.log(reversedNums);
+
+// let count = 0;
+// while (count < 11) {
+//   console.log(count);
+//   count++;
+// }
+// console.log("done and count value is now", count); // 11
+
+// const countriesAgain = ["Finland", "Sweden", "Norway", "Denmark", "Iceland"];
+// countriesAgain.forEach((country, i, arr) => {
+//   console.log(i, country, arr);
+// });
+
+const user = {
+  firstName: "Asabeneh",
+  lastName: "Yetayeh",
+  age: 250,
+  country: "Finland",
+  skills: ["HTML", "CSS", "JS", "React", "Node", "Python", "D3.js"],
+};
+
+for (const key in user) {
+  console.log(key, user[key]);
+}
